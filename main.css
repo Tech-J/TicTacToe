@@ -1,0 +1,41 @@
+#maincontainer
+{
+  height: 700px;
+  width: 900px;
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+}
+#gridcontainer
+{
+  height: 800px;
+  width: 800px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box
+{
+  width: 33%;
+  height: 33%;
+  background-color:white;
+  text-align: center;  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#x
+{
+  background-color: grey;
+}
+#o
+{
+  background-color: blue;
+}
+#reset
+{
+  margin: 0 auto;
+}
